@@ -1,0 +1,27 @@
+{
+    "name": "aminulbd/spider",
+    "description": "Grab latest feed from search engine like Google, Bing, WordPress, etc.",
+    "type": "library",
+    "require": {
+        "php": ">=7.4.0",
+        "symfony/dom-crawler": "^5.0",
+        "symfony/css-selector": "^5.0",
+        "symfony/http-client": "^5.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AminulBD\\Spider\\": "src/"
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Aminul Islam",
+            "email": "me@aminul.net"
+        }
+    ],
+    "minimum-stability": "stable"
+}
