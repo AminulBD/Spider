@@ -2,7 +2,6 @@
     "name": "aminulbd/spider",
     "description": "Grab latest feed from search engine like Google, Bing, WordPress, etc.",
     "type": "library",
-    "version": "0.0.1",
     "require": {
         "php": ">=7.4.0",
         "symfony/dom-crawler": "^5.0",
